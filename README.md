@@ -1,67 +1,64 @@
 <div align="center">
-  <!-- Custom Shield Logo -->
-  <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield Logo -->
+  <svg width="160" height="160" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M100 20 L170 45 L170 90 C170 130 140 160 100 180 C60 160 30 130 30 90 L30 45 Z" fill="#2563eb" stroke="#1e40af"/>
     <text x="100" y="115" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold" font-size="48">RL</text>
   </svg>
-
   <h1>RouteLens</h1>
-  <h3>Static Analysis Tool for React & Next.js Routing Issues</h3>
+  <p>Static analysis tool to catch React & Next.js routing issues before production</p>
 
-  <!-- Tech Stack -->
   <div>
     <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
     <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
     <img src="https://img.shields.io/badge/ts--morph-3178C6?style=for-the-badge" alt="ts-morph">
     <img src="https://img.shields.io/badge/Commander.js-339933?style=for-the-badge" alt="Commander.js">
-    <img src="https://img.shields.io/badge/Chalk-000000?style=for-the-badge&logo=npm" alt="Chalk">
-    <img src="https://img.shields.io/badge/fast--glob-339933?style=for-the-badge" alt="fast-glob">
-    <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint">
-    <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white" alt="Prettier">
-    <img src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest">
+    <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="MIT License">
   </div>
 </div>
 
 ---
 
-## How to Run This Project
+## Key Features
+- 🔍 Detect broken links
+- ⚠️ Find duplicate routes
+- ❌ Catch invalid dynamic route syntax
+- 📊 Multiple output formats (CLI, JSON, tree, stats)
+- 🧠 Auto-detects React Router, Next.js App Router, Pages Router
+
+---
+
+## Quick Start
 
 ### Prerequisites
-- Node.js 18+ installed on your machine
+- Node.js 18+
 
-### Step-by-Step Instructions
-
-1. **Clone the Repository**
+### Installation & Run
 ```bash
+# Clone repo
 git clone https://github.com/tarunagnihotri534/RouteLens.git
 cd RouteLens
-```
 
-2. **Install Dependencies**
-```bash
+# Install dependencies
 npm install --no-bin-links
-```
 
-3. **Build the Project**
-```bash
+# Build
 npm run build
-```
 
-4. **Run RouteLens**
-```bash
-# Scan current directory
-node dist/cli/index.js scan
-
-# Scan a specific directory
-node dist/cli/index.js scan --path ./my-react-app
+# Scan your project
+node dist/cli/index.js scan --path ./your-project
 ```
 
 ---
 
-## Usage Options
+## Usage Flags
 | Flag | Description |
 |------|-------------|
-| `--json` | Output JSON |
-| `--tree` | Show route tree |
-| `--stats` | Show only stats |
+| `--json` | Machine-readable JSON output |
+| `--tree` | Hierarchical route tree |
+| `--stats` | Statistics summary only |
 | `--path <dir>` | Path to scan (default: `.`) |
+
+---
+
+## License
+MIT
