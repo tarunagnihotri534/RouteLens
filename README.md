@@ -1,11 +1,19 @@
-# RouteLens (formerly RouteGuard)
-
 <div align="center">
+  <!-- Custom Shield Logo -->
+  <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M100 20 L170 45 L170 90 C170 130 140 160 100 180 C60 160 30 130 30 90 L30 45 Z" fill="#2563eb" stroke="#1e40af"/>
+    <text x="100" y="115" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold" font-size="48">RL</text>
+  </svg>
+
+  <h1>RouteLens</h1>
   <h3>Static Analysis Tool for React & Next.js Routing Issues</h3>
   <p>Catch broken links, duplicate routes, invalid syntax, and more — before they hit production!</p>
-  <img src="https://img.shields.io/badge/TypeScript-5.3-blue?logo=typescript" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Node.js-18+-green?logo=nodedotjs" alt="Node.js">
-  <img src="https://img.shields.io/badge/License-MIT-yellow" alt="MIT License">
+
+  <div>
+    <img src="https://img.shields.io/badge/TypeScript-5.3-blue?logo=typescript" alt="TypeScript">
+    <img src="https://img.shields.io/badge/Node.js-18+-green?logo=nodedotjs" alt="Node.js">
+    <img src="https://img.shields.io/badge/License-MIT-yellow" alt="MIT License">
+  </div>
 </div>
 
 ---
@@ -42,6 +50,21 @@ Routing issues are one of the most common causes of bad UX, 404 errors, and SEO 
 | 📊 **Multiple Output Formats** | Human-readable CLI, JSON for machines, route tree, and stats summary |
 | 📝 **Actionable Feedback** | Every finding includes file path + line number |
 | 🚀 **Extensible Architecture** | Easy to add new analyzers and reporters |
+
+---
+
+## Tech Stack
+<div align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/ts--morph-3178C6?style=for-the-badge" alt="ts-morph">
+  <img src="https://img.shields.io/badge/Commander.js-339933?style=for-the-badge" alt="Commander.js">
+  <img src="https://img.shields.io/badge/Chalk-000000?style=for-the-badge&logo=npm" alt="Chalk">
+  <img src="https://img.shields.io/badge/fast--glob-339933?style=for-the-badge" alt="fast-glob">
+  <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint">
+  <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white" alt="Prettier">
+  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest">
+</div>
 
 ---
 
