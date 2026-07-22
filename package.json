@@ -1,0 +1,37 @@
+{
+  "name": "routeguard",
+  "version": "1.0.0",
+  "description": "Static analysis tool for React/Next.js routing issues",
+  "main": "dist/cli/index.js",
+  "bin": {
+    "routeguard": "dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix",
+    "format": "prettier --write src",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": ["react", "nextjs", "routing", "lint", "cli"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "fast-glob": "^3.3.2",
+    "ts-morph": "^22.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.2.4",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.1"
+  }
+}
