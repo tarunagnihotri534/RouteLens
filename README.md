@@ -1,9 +1,5 @@
 <div align="center">
-  <!-- Shield Logo -->
-  <svg width="160" height="160" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M100 20 L170 45 L170 90 C170 130 140 160 100 180 C60 160 30 130 30 90 L30 45 Z" fill="#2563eb" stroke="#1e40af"/>
-    <text x="100" y="115" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold" font-size="48">RL</text>
-  </svg>
+  <img src="assets/logo.png" width="160" height="160" alt="RouteLens Logo">
   <h1>RouteLens</h1>
   <p>Static analysis tool to catch React & Next.js routing issues before production</p>
 
